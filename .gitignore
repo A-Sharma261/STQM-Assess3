@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Generated registration data
+registered_emails.json
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Screenshots from earlier test runs
+T001_S*.png
+T002_S*.png
+T003_S*.png
