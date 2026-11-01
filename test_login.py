@@ -27,7 +27,7 @@ for i, inputs in enumerate(tests):
         driver.find_element(By.CSS_SELECTOR, 'input[type="submit"]').click()
 
         def login_error(d):
-            return  any(
+            return any(
                 "no match for e-mail address and/or password" in element.text.lower()
                 for element in d.find_elements(By.CSS_SELECTOR, ".alert-danger")
                 if element.is_displayed()

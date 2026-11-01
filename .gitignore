@@ -16,9 +16,6 @@ __pycache__/
 htmlcov/
 coverage.xml
 
-# Generated registration data
-registered_emails.json
-
 # Local environment settings
 .env
 .env.*
