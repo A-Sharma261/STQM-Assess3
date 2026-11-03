@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "testcase": 1,
+        "emails": [
+            "test.student.45a6aaf6e8f14c13b868920f603aaeb7@gmail.com",
+            "test.student.13cc20b4b69c433c88be71d6bb684c0a@gmail.com"
+        ]
+    }
+]
